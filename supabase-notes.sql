@@ -1,0 +1,3 @@
+-- Nexaro MVP uses Supabase Auth only and requires no custom tables yet.
+-- Never store passwords in a public table.
+-- If cloud projects are added later, enable RLS and restrict each row to auth.uid().
